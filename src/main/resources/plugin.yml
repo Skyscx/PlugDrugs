@@ -2,3 +2,7 @@ name: PlugDrugs
 version: '${project.version}'
 main: me.skyscx.sunland.plugdrugs.PlugDrugs
 api-version: 1.19
+commands:
+  ChangeUseDrugs:
+    description: Разрешить/Запретить использование наркотических препаратов.
+    aliases: cud
