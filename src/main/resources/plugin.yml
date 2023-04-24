@@ -1,0 +1,4 @@
+name: PlugDrugs
+version: '${project.version}'
+main: me.skyscx.sunland.plugdrugs.PlugDrugs
+api-version: 1.19
