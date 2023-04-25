@@ -6,6 +6,8 @@ public class Messages {
     public static String C_002 = "Использование меню выдачи наркотических препаратов через консоль невозможно!";
     //Player
     public static String P_001 = "Использование наркотических препаратов прекращено!";
+    public static String P_002 = "Вы изменили возможность использования наркотичевских препаратов.";
+    public static String P_003 = "Недостаточно прав.";
     //Info
     //Logger
     //INVENTORY

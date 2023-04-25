@@ -22,7 +22,8 @@ public class PlayerUseDrugs implements Listener {
             if (player.getItemInHand().getType() == Material.WHITE_DYE){
                 if (status){
                     ItemStack item = player.getItemInHand();
-                    if (drugs_cocaine == item){
+                    //drugs_cocaine == item
+                    if (true){
                         if (event.getAction() == Action.RIGHT_CLICK_BLOCK || event.getAction() == Action.RIGHT_CLICK_AIR){
                             /*Проверка на определенный тип наркоты.*/
                             SM(player, "ITEM USE");
