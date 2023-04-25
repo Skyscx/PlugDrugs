@@ -1,8 +1,9 @@
 package me.skyscx.sunland.plugdrugs;
 
-import me.skyscx.sunland.plugdrugs.Commands.ChangerPermissionToUseDrugs;
-import me.skyscx.sunland.plugdrugs.Events.PlayerUseDrugs;
-import me.skyscx.sunland.plugdrugs.Items.CreateDrugs;
+import me.skyscx.sunland.plugdrugs.assets.drugs.Drugs_Items;
+import me.skyscx.sunland.plugdrugs.commands.ChangerPermissionToUseDrugs;
+import me.skyscx.sunland.plugdrugs.events.PlayerUseDrugs;
+import me.skyscx.sunland.plugdrugs.items.CreateDrugs;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -17,6 +18,8 @@ public final class PlugDrugs extends JavaPlugin {
         PlugDrugs.getPlugin().saveConfig();
         saveDefaultConfig();
         System.out.println("PlugDrugs Started!");
+        //ITEMS
+        Drugs_Items.init();
         //RECIPE
         CreateDrugs.init();
         //COMMANDS

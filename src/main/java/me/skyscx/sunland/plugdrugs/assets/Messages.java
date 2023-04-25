@@ -1,4 +1,4 @@
-package me.skyscx.sunland.plugdrugs.Assets;
+package me.skyscx.sunland.plugdrugs.assets;
 
 public class Messages {
     //Console

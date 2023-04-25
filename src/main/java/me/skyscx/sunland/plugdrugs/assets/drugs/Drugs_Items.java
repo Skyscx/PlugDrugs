@@ -1,4 +1,4 @@
-package me.skyscx.sunland.plugdrugs.Assets.Drugs;
+package me.skyscx.sunland.plugdrugs.assets.drugs;
 
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
@@ -9,10 +9,11 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.util.ArrayList;
 import java.util.List;
 
-import static me.skyscx.sunland.plugdrugs.Assets.Messages.*;
+import static me.skyscx.sunland.plugdrugs.assets.Messages.*;
 
 public class Drugs_Items {
     public static ItemStack drugs_cocaine;
+    public static void init(){cocaine_item();}
     private static void  cocaine_item() {
         ItemStack drug_1 = new ItemStack(Material.WHITE_DYE, 1);
         ItemMeta meta_drug_1 = drug_1.getItemMeta();

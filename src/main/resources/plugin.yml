@@ -2,6 +2,10 @@ name: PlugDrugs
 version: '${project.version}'
 main: me.skyscx.sunland.plugdrugs.PlugDrugs
 api-version: 1.19
+authors: [ Skyscx_ ]
+description: DRUUUGGS!!!
+prefix: DRUGS
+
 commands:
   ChangeUseDrugs:
     description: Разрешить/Запретить использование наркотических препаратов.

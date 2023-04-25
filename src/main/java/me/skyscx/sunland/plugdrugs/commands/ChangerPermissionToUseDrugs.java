@@ -1,13 +1,9 @@
-package me.skyscx.sunland.plugdrugs.Commands;
+package me.skyscx.sunland.plugdrugs.commands;
 
-import me.skyscx.sunland.plugdrugs.Assets.Messages;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-
-import static me.skyscx.sunland.plugdrugs.Assets.Messages.*;
-import static me.skyscx.sunland.plugdrugs.System.System.SC;
 
 
 public class ChangerPermissionToUseDrugs implements CommandExecutor {

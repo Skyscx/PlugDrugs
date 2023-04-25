@@ -1,14 +1,14 @@
-package me.skyscx.sunland.plugdrugs.Commands;
+package me.skyscx.sunland.plugdrugs.commands;
 
 import me.skyscx.sunland.plugdrugs.Inventory.GiveDrugsMenu;
-import me.skyscx.sunland.plugdrugs.System.System;
+import me.skyscx.sunland.plugdrugs.system.System;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import static me.skyscx.sunland.plugdrugs.Assets.Messages.*;
-import static me.skyscx.sunland.plugdrugs.System.System.*;
+import static me.skyscx.sunland.plugdrugs.assets.Messages.*;
+import static me.skyscx.sunland.plugdrugs.system.System.*;
 
 public class GiveDrugsMenuCommand implements CommandExecutor {
     @Override

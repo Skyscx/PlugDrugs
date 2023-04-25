@@ -1,4 +1,4 @@
-package me.skyscx.sunland.plugdrugs.Items;
+package me.skyscx.sunland.plugdrugs.items;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -12,7 +12,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.util.ArrayList;
 import java.util.List;
 
-import static me.skyscx.sunland.plugdrugs.Assets.Messages.*;
+import static me.skyscx.sunland.plugdrugs.assets.Messages.*;
 
 public class CreateDrugs {
     public static ItemStack drugs_cocaine;
